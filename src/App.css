@@ -1,0 +1,15 @@
+.app {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 300px;
+  padding: 10px 0;
+  width: 100%;
+}
+.app-header {
+  padding: 10px 0;
+  text-align: center;
+}
+.app-title {
+  font-size: 24px;
+  margin: 0;
+}

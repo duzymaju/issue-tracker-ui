@@ -1,0 +1,44 @@
+.issues {
+  font-size: 14px;
+  padding: 10px;
+}
+.issues-loader {
+  background: #cae5ff;
+  border: 1px solid #0080ff;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 8px;
+}
+.issues-error {
+  background: #ffe6e2;
+  border: 1px solid #ff2300;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 8px;
+}
+.issues-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.issues-form {
+  background: #eee;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 8px;
+}
+.issues-form-error {
+  color: #f00;
+  margin: 0 0 4px;
+}
+.issues-form input {
+  border: 1px solid #000;
+  margin: 0 5px;
+}
+.issues-form button {
+  background: #eee;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin: 0 5px;
+}
