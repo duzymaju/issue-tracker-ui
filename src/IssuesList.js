@@ -51,12 +51,13 @@ class IssuesList extends React.Component {
       method: 'POST',
     })
       .then(res => res.json())
-      .then(issue => {
-        issues.push(issue);
+      .then(data => {
+        if (data.error) {
+          this.setState({ addingError: new Error(data.error) });
+          return;
+        }
+        issues.push(data);
         this.setState({ description: '', issues, title: '' });
-      })
-      .catch(error => {
-        alert(error);
       });
   }
 
